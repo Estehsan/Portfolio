@@ -74,12 +74,12 @@ export default function About() {
 
               </p>
               <p>
-              What sets Estehsan apart from other freelancers is his ability to truly understand your business and your customers. He takes the time to listen to your needs and goals, and uses his expertise to craft a customized solution that will exceed your expectations. Plus, with his background in entrepreneurship, Estehsan knows what it takes to succeed in today's competitive market, and he'll work tirelessly to help you achieve your vision.
+              What sets Estehsan apart from other freelancers is his ability to truly understand your business and your customers. He takes the time to listen to your needs and goals, and uses his expertise to craft a customized solution that will exceed your expectations. Plus, with his background in entrepreneurship, Estehsan knows what it takes to succeed in today&apos;s competitive market, and he&apos;ll work tirelessly to help you achieve your vision.
 
 
               </p>
               <p>
-              So if you're ready to take your business to new heights, don't hesitate to contact Estehsan Tariq today. With his unparalleled talent and dedication, he's the freelance superstar you've been searching for.
+              So if you&apos;re ready to take your business to new heights, don&apos;t hesitate to contact Estehsan Tariq today. With his unparalleled talent and dedication, he&apos;s the freelance superstar you&apos;ve been searching for.
 
 
 
