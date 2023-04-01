@@ -17,9 +17,9 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import Visionomatic from '@/images/logos/Visionomatic.png'
+import logoFacebook from '@/images/logos/RightClick.png'
+import Avatar from '@/images/logos/avatar.jpg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import { formatDate } from '@/lib/formatDate'
 
@@ -124,35 +124,35 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
+      company: 'Project Based',
       title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      logo: Avatar,
+      start: '2017',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Visionomatic',
+      title: 'Co Founder',
+      logo: Visionomatic,
+      start: '2017',
+      end: '2022',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'RightClick',
+      title: 'Frontend Developer',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: '2018',
+      end: '2017',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
+      company: 'OnMarts',
+      title: 'Graphic Designer',
       logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2016',
+      end: '2017',
     },
   ]
 
@@ -251,23 +251,19 @@ export default function Home({ articles }) {
             I’m Estehsan, the ultimate triple threat! As an entrepreneur, developer, and UI/UX designer, Estehsan is a true jack-of-all-trades. With a keen eye for design, a love for all things tech, and a passion for creating innovative solutions, Estehsan is a force to be reckoned with in the world of business and technology. Get ready to be wowed by this marketing genius!
           </p>
           <div className="mt-6 flex gap-6">
+        
             <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/estehsaan"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/estehsan"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/estehsan/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
