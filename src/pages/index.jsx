@@ -18,7 +18,7 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import Visionomatic from '@/images/logos/Visionomatic.png'
-import logoFacebook from '@/images/logos/RightClick.png'
+import RightClick from '@/images/logos/RightClick.png'
 import Avatar from '@/images/logos/avatar.jpg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import { formatDate } from '@/lib/formatDate'
@@ -143,7 +143,7 @@ function Resume() {
     {
       company: 'RightClick',
       title: 'Frontend Developer',
-      logo: logoFacebook,
+      logo: RightClick,
       start: '2018',
       end: '2017',
     },
