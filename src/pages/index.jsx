@@ -19,6 +19,10 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import Visionomatic from '@/images/logos/visionomatic.png'
 import RightClick from '@/images/logos/rightClick.png'
+import MightyHomes from '@/images/logos/MightyHomes.png'
+import DotComStudio from '@/images/logos/DotComStudio.png'
+import OnMarts from '@/images/logos/OnMarts.png'
+
 import Avatar from '@/images/logos/avatar.jpg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import { formatDate } from '@/lib/formatDate'
@@ -124,12 +128,22 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Project Based',
-      title: 'CEO',
-      logo: Avatar,
-      start: '2017',
+      company: 'Mighty Homes',
+      title: 'Full Stack Developer',
+      logo: MightyHomes,
+      start: '2023 Feb',
       end: {
         label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
+      company: 'Freelance Project Based',
+      title: 'CEO',
+      logo: DotComStudio,
+      start: '2017',
+      end: {
+        label: 'Aug 2022',
         dateTime: new Date().getFullYear(),
       },
     },
@@ -138,21 +152,21 @@ function Resume() {
       title: 'Co Founder',
       logo: Visionomatic,
       start: '2017',
-      end: '2022',
+      end: 'Aug 2022',
     },
     {
       company: 'RightClick',
       title: 'Frontend Developer',
       logo: RightClick,
-      start: '2018',
-      end: '2017',
+      start: 'Dec 2016',
+      end: 'Mar 2017',
     },
     {
       company: 'OnMarts',
       title: 'Graphic Designer',
-      logo: logoStarbucks,
-      start: '2016',
-      end: '2017',
+      logo: OnMarts,
+      start: 'Dec 2015',
+      end: 'Feb 2016',
     },
   ]
 
