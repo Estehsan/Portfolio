@@ -11,34 +11,44 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import mighty from '@/images/logos/mighty.png'
+import sclpt from '@/images/logos/sclpt.png'
+import Rondevoo from '@/images/logos/Rondevoo.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'MightyHomes',
+    description:
+      'Transform Your Home with AI-Powered Design in Just 30 Seconds',
+    link: { href: 'https://mightyhomes.com/', label: 'https://mightyhomes.com/' },
+    logo: mighty,
+  },
+  {
+    name: 'SCLPT',
     description:
       'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    link: { href: 'https://github.com/Estehsan/SCLPT', label: 'github' },
+    logo: sclpt,
   },
   {
-    name: 'Animaginary',
+    name: 'Rondevoo',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    'React Native App that offers 1 on 1 video calls. Meet live with celebrities, athletes, influencers, gamers... or with tutors, music instructors, chefs, coaches, and everyone in between. Anyone can …',
+    link: { href: 'https://github.com/Estehsan/Rondevoo', label: 'github.com' },
+    logo: Rondevoo,
   },
   {
-    name: 'HelioStream',
+    name: 'Backspace',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://github.com/Estehsan/BackSpace', label: 'github.com' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'YummyEvent',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'React Native POS system',
+    link: { href: 'https://github.com/Estehsan/YummyEvent', label: 'github.com' },
     logo: logoCosmos,
   },
   {
@@ -109,7 +119,7 @@ export default function Projects() {
             </Card>
           ))}
         </ul>
-          <Popups isOpen={isOpen} closeModal={closeModal} />
+          {/* <Popups isOpen={isOpen} closeModal={closeModal} /> */}
       </SimpleLayout>
 
    
