@@ -42,7 +42,7 @@ export default function Uses() {
   <div className="space-y-20">
     <ToolsSection title="Frameworks">
       <Tool title="React">
-        A popular frontend library for building dynamic user interfaces that are reusable and easy to maintain. I use React because it's fast, efficient, and has a large community of developers.
+        A popular frontend library for building dynamic user interfaces that are reusable and easy to maintain. I use React because it&apos;s	 fast, efficient, and has a large community of developers.
       </Tool>
       
       <Tool title="React Native">
@@ -50,7 +50,7 @@ export default function Uses() {
       </Tool>
       
       <Tool title="Next.js">
-        A popular frontend framework for building dynamic user interfaces that are reusable and easy to maintain. I use Next.js because it's fast, efficient, and has a large community of developers.
+        A popular frontend framework for building dynamic user interfaces that are reusable and easy to maintain. I use Next.js because it&apos;s fast, efficient, and has a large community of developers.
       </Tool>
 
       <Tool title="Gatsby">
