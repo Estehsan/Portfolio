@@ -149,7 +149,6 @@ export default function Uses() {
     </ToolsSection>
   </div>
 </SimpleLayout>
-
     </>
   )
 }

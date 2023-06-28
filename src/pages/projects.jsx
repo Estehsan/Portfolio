@@ -52,10 +52,10 @@ const projects = [
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'QTech',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+      'Providing Innovative Solutions with Instrumentation and Control Systems',
+    link: { href: 'https://qtech.com.pk/', label: 'https://qtech.com.pk/' },
     logo: logoOpenShuttle,
   },
 ]
