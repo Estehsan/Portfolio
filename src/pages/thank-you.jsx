@@ -1,30 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import Head from 'next/head'
 
-const thankou = () => {
+import { SimpleLayout } from '@/components/SimpleLayout'
+
+export default function ThankYou() {
   return (
-    <View>
-      <Text>Thank you</Text>
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Thank you</Text>
-      
-      
-        </View> 
-
-        <View>
-
-        <Text>Thank you</Text>
-        </View>
-
-        <YoutubePlayer>
-          ref={(ref) => {
-            
-        </YoutubePlayer>
-
-    </View>
+    <>
+      <Head>
+        <title>You’re subscribed - Spencer Sharp</title>
+        <meta
+          name="description"
+          content="Thanks for subscribing to my newsletter."
+        />
+      </Head>
+      <SimpleLayout
+        title="Thanks for subscribing."
+        intro="I’ll send you an email any time I publish a new blog post, release a new project, or have anything interesting to share that I think you’d want to hear about. You can unsubscribe at any time, no hard feelings."
+      />
+    </>
   )
 }
-
-export default thank-you
-
-const styles = StyleSheet.create({})
