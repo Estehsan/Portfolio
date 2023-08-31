@@ -14,8 +14,15 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 import mighty from '@/images/logos/mighty.png'
 import sclpt from '@/images/logos/sclpt.png'
 import Rondevoo from '@/images/logos/Rondevoo.png'
+import ClickCrafter from '@/images/logos/ClickCrafter.png'
 
 const projects = [
+  {
+    name: 'Click Crafter',
+    description:"Making moments matter. Click Crafter is a platform that connects photographers with clients.",
+    link: { href: 'https://theclickcrafter.com/', label: 'https://theclickcrafter.com/' },
+    logo: ClickCrafter,
+  },    
   {
     name: 'MightyHomes',
     description:

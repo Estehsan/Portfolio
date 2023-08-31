@@ -229,6 +229,7 @@ function Avatar({ large = false, className, ...props }) {
     <Link
       href="/"
       aria-label="Home"
+
       className={clsx(className, 'pointer-events-auto')}
       {...props}
     >
@@ -243,6 +244,7 @@ function Avatar({ large = false, className, ...props }) {
         priority
       />
     </Link>
+  
   )
 }
 
