@@ -22,6 +22,7 @@ import RightClick from '@/images/logos/rightClick.png'
 import MightyHomes from '@/images/logos/MightyHomes.png'
 import DotComStudio from '@/images/logos/DotComStudio.png'
 import OnMarts from '@/images/logos/OnMarts.png'
+import SAS from '@/images/logos/SAS.png'
 
 import Avatar from '@/images/logos/avatar.jpg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
@@ -130,26 +131,31 @@ function Resume() {
 
 
   let resume = [
+    {
+      company: 'SAS - Scandinavian Airlines',
+      title: 'DevEx Engineer',
+      logo: SAS,
+      start: '2023 Oct',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
    
     {
       company: 'Mighty Homes',
       title: 'Full Stack Developer',
       logo: MightyHomes,
       start: '2023 Feb',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
+      end: '2023 Aug',
+
     },
     {
       company: 'Freelance Project Based',
       title: 'CEO',
       logo: DotComStudio,
       start: '2017',
-      end: {
-        label: 'Aug 2022',
-        dateTime: new Date().getFullYear(),
-      },
+      end: 'Aug 2022',
     },
     {
       company: 'Visionomatic',
